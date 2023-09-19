@@ -43,8 +43,10 @@ Puis générer le HTML avec le bouton "Knit to HTML" :
 
 * Installer R en suivant [les instructions officielles](https://cran.rstudio.com/bin/linux/ubuntu/)
 * Installer les dépendances systèmes nécessaires au devtools :
+
 `sudo apt install -y libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libharfbuzz-dev libfribidi-dev libfontconfig1-dev libcurl4-gnutls-dev libxml2-dev libssl-dev liblapack-dev libopenblas-dev libgdal-dev`
 * Installer les librairies R nécessaires (à faire depuis le dossier `deces_europe`):
+
 `R -f 000_install_librairies.R`
   
 CODE
